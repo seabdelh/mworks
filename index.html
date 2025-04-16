@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,14 +7,27 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <header>
-    <h1>MetalWorks Workshop</h1>
+    <div class="logo">
+      <img src="images/logo.png" alt="MetalWorks Logo">
+    </div>
     <nav>
       <a href="#about">About</a>
       <a href="#services">Services</a>
+      <a href="#products">Products</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
+
+  <section class="slideshow">
+    <div class="slides">
+      <img src="images/slide1.jpg" alt="Work Sample 1">
+      <img src="images/slide2.jpg" alt="Work Sample 2">
+      <img src="images/slide3.jpg" alt="Work Sample 3">
+      <img src="images/slide4.jpg" alt="Work Sample 4">
+    </div>
+  </section>
 
   <section id="hero">
     <h2>We Shape Metal with Precision</h2>
@@ -36,6 +50,24 @@
     </ul>
   </section>
 
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="product-gallery">
+      <div class="product">
+        <img src="images/chair.jpg" alt="Metal Chair">
+        <p>Custom Metal Chairs</p>
+      </div>
+      <div class="product">
+        <img src="images/table.jpg" alt="Metal Table">
+        <p>Heavy-Duty Tables</p>
+      </div>
+      <div class="product">
+        <img src="images/die.jpg" alt="Metal Dies">
+        <p>Precision Dies</p>
+      </div>
+    </div>
+  </section>
+
   <section id="contact">
     <h2>Contact Us</h2>
     <p>Email: info@metalworks.com</p>
@@ -46,5 +78,6 @@
   <footer>
     <p>© 2025 MetalWorks Workshop</p>
   </footer>
+
 </body>
 </html>
